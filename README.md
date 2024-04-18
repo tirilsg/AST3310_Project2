@@ -1,6 +1,6 @@
 # AST3310_Project2
 
-This repository contains python code constructing a model for energy transportation within a sun, making use of the model for energy production defined in `StellarCore.py`, the class `StellarCore`. 
+This repository contains python code constructing a model for energy transportation within a sun `EnergyTransportation` in `project2.py`, making use of the model for energy production defined in `stellar_core.py`, the class `StellarCore`. The code can be ran by just calling `project2.py`, as it imports all important functions in the documents `atellar_core.py`, `cross_section.py` and `cross_section_sub.py` as modules. 
 
 
 -------------------------------------
@@ -26,7 +26,7 @@ Contains a class `StellarCore` which takes a density constant $\rho$ and tempera
 
 ---------------------------------------
 ### `project2.py`: 
-Contains a redefinition of the class defined in `stellar_core.py`, which adds a calculation of the total energy-production to the function relating the production of energy to each branch of fusion occurring. \\
+Contains a redefinition of the class defined in `stellar_core.py`, which adds a calculation of the total energy-production to the function relating the production of energy to each branch of fusion occurring. 
 
 Furthermore, a class `EnergyTransportation(L0, R0, M0, rho0, T0, print_sanity)` is implemented, which takes the surface defining variables L0, R0, M0, rho0, T0, and the boolean print_sanity as arguments, and defines the contents; 
 
